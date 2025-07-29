@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N51LNLEHNK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-N51LNLEHNK');
+    </script>
+
+    <meta name="google-site-verification" content="47xrrXY5VXRUrBqPiJdhf71HbpXdrulAfRnqe8z6J5M" />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Subjects - AKTUBuddy</title>
+    <meta name="description" content="Explore subjects offered by AKTUBuddy for various AKTU branches and semesters.">
+    <meta name="keywords" content="AKTUBuddy subjects, AKTU CSE subjects, AKTU IT subjects, AKTU ECE subjects, exam prep, study">
+    <meta name="robots" content="index,follow">
+    <meta name="author" content="AKTUBuddy Team">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css"> </head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon" role="img" aria-label="AKTUBuddy Logo"><i class="fas fa-book"></i></div>
+                    <div class="logo-text">
+                        <h1>AKTUBuddy</h1>
+                        <p>Level Up Your AKTU Prep!</p>
+                    </div>
+                </div>
+
+                <nav class="nav-menu" aria-label="Main navigation">
+                    <div class="nav-links">
+                        <a href="index.html">Home</a>
+                        <a href="subjects.html">Subjects</a>
+                        <a href="mock-tests.html">Mock Tests</a>
+                        <a href="https://files.catbox.moe/l5a70f.apk">App</a>
+                        <a href="javascript:void(0)" onclick="openCalculator()"> Calculator</a>
+                    </div>
+                    <div class="search-box">
+                        <i class="fas fa-magnifying-glass search-icon" aria-hidden="true"></i>
+                        <input type="text" class="search-input" placeholder="Find subjects or tests..." id="searchInput" aria-label="Search">
+                    </div>
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle mobile menu"><i class="fas fa-bars"></i></button>
+                    <div class="mobile-menu" id="mobileMenu">
+                        <a href="index.html">Home</a>
+                        <a href="subjects.html">Subjects</a>
+                        <a href="mock-tests.html">Mock Tests</a>
+                        <a href="https://files.catbox.moe/l5a70f.apk">App</a>
+                        <a href="javascript:void(0)" onclick="openCalculator()"> Calculator</a>
+                        <div class="search-box">
+                            <i class="fas fa-magnifying-glass search-icon" aria-hidden="true"></i>
+                            <input type="text" class="search-input" placeholder="Search..." id="mobileSearchInput" aria-label="Mobile Search">
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="search-results" id="searchResults"></div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <section class="section" id="subjects">
+                <h2 class="section-title"><i class="fas fa-book"></i> Your Subjects</h2>
+                <div class="cards-grid" id="subjectsGrid">
+                    </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-brand">
+                        <div class="footer-brand-icon" role="img" aria-label="AKTUBuddy Footer Logo"><i class="fas fa-book"></i></div>
+                        <div>
+                            <h3>AKTUBuddy</h3>
+                            <p style="font-size:.9rem;color:#bfdbfe">Level Up Your AKTU Prep!</p>
+                        </div>
+                    </div>
+                    <p style="color:#bfdbfe;font-size:0.85rem;">Your ultimate companion for AKTU exam success. Practice, learn, and ace your exams!</p>
+                </div>
+                <div>
+                    <h4 style="font-size:1.1rem;margin-bottom:16px;color:var(--text-light);">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="subjects.html">Subjects</a></li>
+                        <li><a href="mock-tests.html">Mock Tests</a></li>
+                        <li><a href="index.html#notes">Study Resources</a></li>
+                        <li><a href="index.html#progress">My Progress</a></li>
+                        <li><a href="https://files.catbox.moe/l5a70f.apk">Download App</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="font-size:1.1rem;margin-bottom:16px;color:var(--text-light);">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="javascript:void(0)" onclick="openSupportModal()">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="font-size:1.1rem;margin-bottom:16px;color:var(--text-light);">Connect With Us</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; <span id="currentYear"></span> AKTUBuddy. All rights reserved. Made with ❤️ for AKTU Students.
+            </div>
+        </div>
+    </footer>
+
+    <div id="quizModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="quizModalTitle">Quiz Title</h2>
+                <button class="close-btn" onclick="closeQuizModal()"><i class="fas fa-times"></i></button>
+            </div>
+            <div id="quizContainer">
+                </div>
+            <div id="quizResult" class="quiz-result" style="display:none;">
+                </div>
+        </div>
+    </div>
+
+    <div id="calculatorModal" class="modal">
+        <div class="calculator">
+            <button class="close-calculator" onclick="closeCalculator()">X</button>
+            <input type="text" id="display" readonly>
+            <div class="buttons">
+                <button class="function" onclick="clearDisplay()">C</button>
+                <button class="function" onclick="appendToDisplay('(')">(</button>
+                <button class="function" onclick="appendToDisplay(')')">)</button>
+                <button class="operator" onclick="appendToDisplay('/')">/</button>
+                <button class="function" onclick="toggleSign()">+/-</button>
+
+                <button class="number" onclick="appendToDisplay('7')">7</button>
+                <button class="number" onclick="appendToDisplay('8')">8</button>
+                <button class="number" onclick="appendToDisplay('9')">9</button>
+                <button class="operator" onclick="appendToDisplay('*')">*</button>
+                <button class="function" onclick="calculateSquareRoot()">&radic;</button>
+
+                <button class="number" onclick="appendToDisplay('4')">4</button>
+                <button class="number" onclick="appendToDisplay('5')">5</button>
+                <button class="number" onclick="appendToDisplay('6')">6</button>
+                <button class="operator" onclick="appendToDisplay('-')">-</button>
+                <button class="function" onclick="calculatePercentage()">%</button>
+
+                <button class="number" onclick="appendToDisplay('1')">1</button>
+                <button class="number" onclick="appendToDisplay('2')">2</button>
+                <button class="number" onclick="appendToDisplay('3')">3</button>
+                <button class="operator" onclick="appendToDisplay('+')">+</button>
+                <button class="function" onclick="calculatePower(2)">x&sup2;</button>
+
+                <button class="number" onclick="appendToDisplay('0')">0</button>
+                <button class="number" onclick="appendToDisplay('.')">.</button>
+                <button class="equals" onclick="calculateResult()">=</button>
+                <button class="function" onclick="calculatePower(3)">x&sup3;</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="supportModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Contact & Support</h2>
+                <button class="close-btn" onclick="closeSupportModal()"><i class="fas fa-times"></i></button>
+            </div>
+            <div>
+                <h3>Need Help?</h3>
+                <p>We're here to assist you with any questions or issues regarding AKTUBuddy.</p>
+
+                <h3>Frequently Asked Questions (FAQs)</h3>
+                <ul>
+                    <li><strong>How do I select my branch and semester?</strong><br>
+                        On the homepage, use the "Branch" and "Semester" dropdowns to filter content.</li>
+                    <li><strong>Where can I find study notes?</strong><br>
+                        Notes are available in the "Study Resources" section on the homepage.</li>
+                    <li><strong>How do I attempt mock tests?</strong><br>
+                        Navigate to the "Mock Tests" page from the header menu.</li>
+                    <li><strong>My progress isn't updating. What should I do?</strong><br>
+                        Ensure you are logged in (if a login feature is implemented) and have completed quizzes. If issues persist, please contact us.</li>
+                </ul>
+
+                <h3>Contact Information</h3>
+                <p>If your question isn't answered in the FAQs, please reach out to us:</p>
+                <ul>
+                    <li>Email: <a href="mailto:support@aktubuddy.com">support@aktubuddy.com</a></li>
+                    <li>Phone: +91 12345 67890 (Mon-Fri, 9 AM - 5 PM IST)</li>
+                    <li>Social Media: Reach out to us on our social channels listed in the footer.</li>
+                </ul>
+
+                <h3>Feedback</h3>
+                <p>We value your feedback! If you have suggestions for new features or improvements, please let us know.</p>
+                <p style="margin-top: 15px;">Thank you for using AKTUBuddy!</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script> </body>
+</html>
