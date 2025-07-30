@@ -1,355 +1,381 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N51LNLEHNK"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>AKTUBuddy - AKTU Exam Preparation Platform | MCQs, Notes & Mock Tests</title>
+    <meta name="description" content="Prepare for AKTU exams with 1000+ MCQs, comprehensive notes, and mock tests for CSE, IT, ECE, ME, EE, CE branches. Free study materials for all semesters.">
+    <meta name="keywords" content="AKTU exam preparation, engineering MCQs, AKTU notes, mock tests, CSE preparation, IT preparation, ECE preparation, ME preparation, EE preparation, CE preparation">
+    <meta name="author" content="AKTUBuddy Team">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="AKTUBuddy - AKTU Exam Preparation Platform">
+    <meta property="og:description" content="Master AKTU exams with interactive MCQs, detailed notes, and comprehensive mock tests for all engineering branches.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourusername.github.io/aktubuddy-multipage/">
+    <meta property="og:image" content="https://yourusername.github.io/aktubuddy-multipage/assets/images/logo.png">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AKTUBuddy - AKTU Exam Preparation">
+    <meta name="twitter:description" content="Interactive study platform for AKTU students with MCQs, notes, and mock tests.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/icons/apple-touch-icon.png">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/themes.css">
+    
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": "AKTUBuddy",
+        "description": "AKTU exam preparation platform offering MCQs, notes, and mock tests for engineering students",
+        "url": "https://yourusername.github.io/aktubuddy-multipage/",
+        "logo": "https://yourusername.github.io/aktubuddy-multipage/assets/images/logo.png",
+        "sameAs": [
+            "https://www.facebook.com/aktubuddy",
+            "https://www.twitter.com/aktubuddy",
+            "https://www.instagram.com/aktubuddy"
+        ],
+        "educationalCredentialAwarded": "AKTU Exam Preparation"
+    }
+    </script>
+    
+    <!-- Google Analytics (replace with your tracking ID) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'G-N51LNLEHNK');
+        gtag('config', 'GA_TRACKING_ID');
     </script>
-
-    <meta name="google-site-verification" content="47xrrXY5VXRUrBqPiJdhf71HbpXdrulAfRnqe8z6J5M" />
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>AKTUBuddy - Your AKTU Exam Prep Companion</title>
-    <meta name="description" content="AKTUBuddy: Engaging MCQs, Mock Tests, and Notes for AKTU CSE, IT, ECE, and more. Ace your exams with fun and interactive study tools!">
-    <meta name="keywords" content="AKTUBuddy,AKTU exam prep,MCQs,mock tests,study notes,CSE,IT,ECE,student-friendly">
-    <meta name="robots" content="index,follow">
-    <meta name="author" content="AKTUBuddy Team">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css"> </head>
+</head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    <div class="logo-icon" role="img" aria-label="AKTUBuddy Logo"><i class="fas fa-book"></i></div>
-                    <div class="logo-text">
-                        <h1>AKTUBuddy</h1>
-                        <p>Level Up Your AKTU Prep!</p>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-content">
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a href="/" class="logo-link">
+                            <div class="logo-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="logo-text">
+                                <h1>AKTUBuddy</h1>
+                                <p>Level Up Your AKTU Prep!</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Navigation Menu -->
+                    <div class="nav-menu" id="navMenu">
+                        <ul class="nav-links">
+                            <li><a href="/" class="nav-link active">Home</a></li>
+                            <li class="dropdown">
+                                <a href="pages/subjects/" class="nav-link dropdown-toggle">
+                                    Subjects <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="pages/subjects/cse-subjects.html">CSE Subjects</a></li>
+                                    <li><a href="pages/subjects/it-subjects.html">IT Subjects</a></li>
+                                    <li><a href="pages/subjects/ece-subjects.html">ECE Subjects</a></li>
+                                    <li><a href="pages/subjects/me-subjects.html">ME Subjects</a></li>
+                                    <li><a href="pages/subjects/ee-subjects.html">EE Subjects</a></li>
+                                    <li><a href="pages/subjects/ce-subjects.html">CE Subjects</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="pages/mcq/" class="nav-link">MCQ Practice</a></li>
+                            <li><a href="pages/tools/" class="nav-link">Tools</a></li>
+                            <li><a href="pages/support/help.html" class="nav-link">Support</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Search Box -->
+                    <div class="search-container">
+                        <div class="search-box">
+                            <input type="search" class="search-input" placeholder="Search subjects, topics..." id="searchInput">
+                            <button class="search-btn" id="searchBtn">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                        <div class="search-results" id="searchResults"></div>
+                    </div>
+
+                    <!-- Theme Toggle & Mobile Menu -->
+                    <div class="nav-actions">
+                        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle mobile menu">
+                            <i class="fas fa-bars"></i>
+                        </button>
                     </div>
                 </div>
-
-                <nav class="nav-menu" aria-label="Main navigation">
-                    <div class="nav-links">
-                        <a href="index.html">Home</a>
-                        <a href="subjects.html">Subjects</a>
-                        <a href="mock-tests.html">Mock Tests</a>
-                        <a href="https://files.catbox.moe/l5a70f.apk">App</a>
-                        <a href="javascript:void(0)" onclick="openCalculator()"> Calculator</a>
-                    </div>
-                    <div class="search-box">
-                        <i class="fas fa-magnifying-glass search-icon" aria-hidden="true"></i>
-                        <input type="text" class="search-input" placeholder="Find subjects or tests..." id="searchInput" aria-label="Search">
-                    </div>
-                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
-                    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle mobile menu"><i class="fas fa-bars"></i></button>
-                    <div class="mobile-menu" id="mobileMenu">
-                        <a href="index.html">Home</a>
-                        <a href="subjects.html">Subjects</a>
-                        <a href="mock-tests.html">Mock Tests</a>
-                        <a href="https://files.catbox.moe/l5a70f.apk">App</a>
-                        <a href="javascript:void(0)" onclick="openCalculator()"> Calculator</a>
-                        <div class="search-box">
-                            <i class="fas fa-magnifying-glass search-icon" aria-hidden="true"></i>
-                            <input type="text" class="search-input" placeholder="Search..." id="mobileSearchInput" aria-label="Mobile Search">
-                        </div>
-                    </div>
-                </nav>
             </div>
-            <div class="search-results" id="searchResults"></div>
-        </div>
+        </nav>
     </header>
 
-    <section class="hero" id="home">
-        <div class="container hero-content">
-            <h1>Ace AKTU Exams with <span class="hero-highlight">AKTUBuddy</span>!</h1>
-            <p>Fun, Interactive MCQs, Mock Tests & Notes for CSE, IT, and More.</p>
-            <div class="hero-buttons">
-                <a href="subjects.html" class="btn btn-primary btn-tooltip" data-tooltip="Jump into practice!"><i class="fas fa-rocket"></i> Start Learning Now</a>
-            </div>
-            <div class="stats-grid">
-                <article class="stat-card">
-                    <i class="fas fa-star stat-icon"></i>
-                    <div class="stat-number">8+</div>
-                    <div>Semesters</div>
-                </article>
-                <article class="stat-card">
-                    <i class="fas fa-star stat-icon"></i>
-                    <div class="stat-number">6+</div>
-                    <div>Branches</div>
-                </article>
-                <article class="stat-card">
-                    <i class="fas fa-star stat-icon"></i>
-                    <div class="stat-number">1000+</div>
-                    <div>MCQs</div>
-                </article>
-                <article class="stat-card">
-                    <i class="fas fa-star stat-icon"></i>
-                    <div class="stat-number">100+</div>
-                    <div>Mock Tests</div>
-                </article>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Master AKTU Exams with 
+                        <span class="highlight">AKTUBuddy</span>
+                    </h1>
+                    <p class="hero-description">
+                        Interactive MCQs, comprehensive notes, and mock tests for CSE, IT, ECE, ME, EE, and CE branches. 
+                        Join thousands of students preparing for AKTU success!
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="pages/subjects/" class="btn btn-primary btn-large">
+                            <i class="fas fa-rocket"></i>
+                            Start Learning Now
+                        </a>
+                        <a href="pages/mcq/" class="btn btn-outline btn-large">
+                            <i class="fas fa-play"></i>
+                            Practice MCQs
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Hero Stats -->
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-number">6+</div>
+                            <div class="stat-label">Branches</div>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-question-circle"></i>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-number">1000+</div>
+                            <div class="stat-label">MCQs</div>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-clipboard-list"></i>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-number">100+</div>
+                            <div class="stat-label">Mock Tests</div>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-number">10K+</div>
+                            <div class="stat-label">Students</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <main class="main-content">
+    <!-- Features Section -->
+    <section class="features" id="features">
         <div class="container">
-            <section class="section">
-                <article class="branch-selector">
-                    <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Pick Your Branch & Semester</h2>
-                    <div class="selector-grid">
-                        <div class="form-group">
-                            <label for="branchSelect">Branch</label>
-                            <select class="select" id="branchSelect" aria-label="Select branch">
-                                <option value="CSE">Computer Science & Engineering</option>
-                                <option value="IT">Information Technology</option>
-                                <option value="ECE">Electronics & Communication</option>
-                                <option value="ME">Mechanical Engineering</option>
-                                <option value="EE">Electrical Engineering</option>
-                                <option value="CE">Civil Engineering</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="semesterSelect">Semester</label>
-                            <select class="select" id="semesterSelect" aria-label="Select semester">
-                                <option value="1">Semester 1</option>
-                                <option value="2">Semester 2</option>
-                                <option value="3">Semester 3</option>
-                                <option value="4">Semester 4</option>
-                                <option value="5">Semester 5</option>
-                                <option value="6">Semester 6</option>
-                                <option value="7">Semester 7</option>
-                                <option value="8">Semester 8</option>
-                            </select>
-                        </div>
+            <div class="section-header">
+                <h2 class="section-title">Why Choose AKTUBuddy?</h2>
+                <p class="section-description">
+                    Comprehensive exam preparation platform designed specifically for AKTU students
+                </p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
                     </div>
-                    <div class="current-selection" id="currentSelection">Currently showing: CSE - Semester 1</div>
-                </article>
-            </section>
-
-            <section class="section" id="notes">
-                <h2 class="section-title"><i class="fas fa-file-alt"></i> Study Resources</h2>
-                <div class="cards-grid">
-                    <article class="card">
-                        <div class="card-header">
-                            <div>
-                                <i class="fas fa-clipboard-list card-icon"></i>
-                                <h3 class="card-title">Important Questions</h3>
-                            </div>
-                        </div>
-                        <p style="color:#6b7280;margin-bottom:12px">Previous year & predicted questions</p>
-                        <div class="stat-value" style="margin-bottom:12px">500+</div>
-                        <a href="#notes" class="btn btn-primary btn-tooltip" data-tooltip="Access now"><i class="fas fa-download"></i> Grab Now</a>
-                    </article>
-                    <article class="card">
-                        <div class="card-header">
-                            <div>
-                                <i class="fas fa-book card-icon"></i>
-                                <h3 class="card-title">Quick Notes</h3>
-                            </div>
-                        </div>
-                        <p style="color:#6b7280;margin-bottom:12px">Chapter-wise revision notes</p>
-                        <div class="stat-value" style="margin-bottom:12px" id="totalNotesCount"></div>
-                        <a href="#notes" class="btn btn-primary btn-tooltip" data-tooltip="Access now"><i class="fas fa-download"></i> Grab Now</a>
-                    </article>
-                    <article class="card">
-                        <div class="card-header">
-                            <div>
-                                <i class="fas fa-calculator card-icon"></i>
-                                <h3 class="card-title">Formula Sheets</h3>
-                            </div>
-                        </div>
-                        <p style="color:#6b7280;margin-bottom:12px">Key formulas at a glance</p>
-                        <div class="stat-value" style="margin-bottom:12px">50+</div>
-                        <a href="#notes" class="btn btn-primary btn-tooltip" data-tooltip="Access now"><i class="fas fa-download"></i> Grab Now</a>
-                    </article>
-                    <article class="card">
-                        <div class="card-header">
-                            <div>
-                                <i class="fas fa-video card-icon"></i>
-                                <h3 class="card-title">Video Lectures</h3>
-                            </div>
-                        </div>
-                        <p style="color:#6b7280;margin-bottom:12px">Engaging concept videos</p>
-                        <div class="stat-value" style="margin-bottom:12px">100+</div>
-                        <a href="#notes" class="btn btn-primary btn-tooltip" data-tooltip="Access now"><i class="fas fa-download"></i> Grab Now</a>
-                    </article>
+                    <h3>Smart MCQ Practice</h3>
+                    <p>Unit-wise MCQs with detailed explanations and instant feedback</p>
                 </div>
-            </section>
-
-            <section class="section" id="progress">
-                <h2 class="section-title"><i class="fas fa-chart-line"></i> Track Your Progress</h2>
-                <p style="text-align:center;margin-bottom:32px;color:#6b7280">See how far you’ve come and crush your goals!</p>
-                <div class="progress-grid">
-                    <article class="progress-card">
-                        <h3 style="font-size:1.4rem;font-weight:700;margin-bottom:12px">Overall Performance</h3>
-                        <div class="progress-stats">
-                            <div class="progress-stat">
-                                <div class="progress-stat-value">68%</div>
-                                <div class="progress-stat-label">Avg Score</div>
-                            </div>
-                            <div class="progress-stat">
-                                <div class="progress-stat-value">24</div>
-                                <div class="progress-stat-label">Tests Taken</div>
-                            </div>
-                            <div class="progress-stat">
-                                <div class="progress-stat-value">156</div>
-                                <div class="progress-stat-label">Hours Studied</div>
-                            </div>
-                            <div class="progress-stat">
-                                <div class="progress-stat-value">89%</div>
-                                <div class="progress-stat-label">Attendance</div>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <h3 style="font-size:1.4rem;font-weight:700;margin-bottom:20px">Subject Progress</h3>
-                        <div id="subjectProgressList"></div>
-                    </article>
-                </div>
-            </section>
-        </div>
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div>
-                    <div class="footer-brand">
-                        <div class="footer-brand-icon" role="img" aria-label="AKTUBuddy Footer Logo"><i class="fas fa-book"></i></div>
-                        <div>
-                            <h3>AKTUBuddy</h3>
-                            <p style="font-size:.9rem;color:#bfdbfe">Level Up Your AKTU Prep!</p>
-                        </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-file-alt"></i>
                     </div>
-                    <p style="color:#bfdbfe;font-size:0.85rem;">Your ultimate companion for AKTU exam success. Practice, learn, and ace your exams!</p>
+                    <h3>Comprehensive Notes</h3>
+                    <p>Subject-wise notes covering all important topics and formulas</p>
                 </div>
-                <div>
-                    <h4 style="font-size:1.1rem;margin-bottom:16px;color:var(--text-light);">Quick Links</h4>
-                    <ul class="footer-links">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="subjects.html">Subjects</a></li>
-                        <li><a href="mock-tests.html">Mock Tests</a></li>
-                        <li><a href="#notes">Study Resources</a></li>
-                        <li><a href="#progress">My Progress</a></li>
-                        <li><a href="https://files.catbox.moe/l5a70f.apk">Download App</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 style="font-size:1.1rem;margin-bottom:16px;color:var(--text-light);">Support</h4>
-                    <ul class="footer-links">
-                        <li><a href="javascript:void(0)" onclick="openSupportModal()">Contact Us</a></li>
-                        <li><a href="#">FAQs</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms of Service</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 style="font-size:1.1rem;margin-bottom:16px;color:var(--text-light);">Connect With Us</h4>
-                    <div class="social-icons">
-                        <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
                     </div>
+                    <h3>Progress Tracking</h3>
+                    <p>Track your performance and identify weak areas for improvement</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Timed Mock Tests</h3>
+                    <p>Exam-like environment with time management practice</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Friendly</h3>
+                    <p>Study anywhere, anytime with responsive design</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Interactive Learning</h3>
+                    <p>Engaging interface with dark/light themes and animations</p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Quick Access Section -->
+    <section class="quick-access" id="quickAccess">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Quick Access</h2>
+                <p class="section-description">Jump directly to your branch and semester</p>
+            </div>
+            
+            <div class="branch-selector">
+                <div class="selector-controls">
+                    <div class="form-group">
+                        <label for="branchSelect">Select Branch</label>
+                        <select id="branchSelect" class="form-select">
+                            <option value="cse">Computer Science & Engineering</option>
+                            <option value="it">Information Technology</option>
+                            <option value="ece">Electronics & Communication</option>
+                            <option value="me">Mechanical Engineering</option>
+                            <option value="ee">Electrical Engineering</option>
+                            <option value="ce">Civil Engineering</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="semesterSelect">Select Semester</label>
+                        <select id="semesterSelect" class="form-select">
+                            <option value="1">Semester 1</option>
+                            <option value="2">Semester 2</option>
+                            <option value="3">Semester 3</option>
+                            <option value="4">Semester 4</option>
+                            <option value="5">Semester 5</option>
+                            <option value="6">Semester 6</option>
+                            <option value="7">Semester 7</option>
+                            <option value="8">Semester 8</option>
+                        </select>
+                    </div>
+                    
+                    <button class="btn btn-primary" id="goToSubjects">
+                        <i class="fas fa-arrow-right"></i>
+                        Go to Subjects
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="logo-text">
+                            <h3>AKTUBuddy</h3>
+                            <p>Your trusted AKTU exam preparation companion</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="pages/subjects/">All Subjects</a></li>
+                        <li><a href="pages/mcq/">MCQ Practice</a></li>
+                        <li><a href="pages/tools/">Study Tools</a></li>
+                        <li><a href="pages/support/help.html">Help Center</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Branches</h4>
+                    <ul>
+                        <li><a href="pages/subjects/cse-subjects.html">CSE</a></li>
+                        <li><a href="pages/subjects/it-subjects.html">IT</a></li>
+                        <li><a href="pages/subjects/ece-subjects.html">ECE</a></li>
+                        <li><a href="pages/subjects/me-subjects.html">ME</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="pages/support/about.html">About Us</a></li>
+                        <li><a href="pages/support/contact.html">Contact</a></li>
+                        <li><a href="pages/support/privacy.html">Privacy Policy</a></li>
+                        <li><a href="pages/support/terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            
             <div class="footer-bottom">
-                &copy; <span id="currentYear"></span> AKTUBuddy. All rights reserved. Made with ❤️ for AKTU Students.
+                <div class="footer-text">
+                    <p>&copy; 2025 AKTUBuddy. Made with ❤️ for AKTU students.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="pages/support/privacy.html">Privacy</a>
+                    <a href="pages/support/terms.html">Terms</a>
+                    <a href="pages/support/contact.html">Contact</a>
+                </div>
             </div>
         </div>
     </footer>
 
-    <div id="quizModal" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2 class="modal-title" id="quizModalTitle">Quiz Title</h2>
-                <button class="close-btn" onclick="closeQuizModal()"><i class="fas fa-times"></i></button>
-            </div>
-            <div id="quizContainer">
-                </div>
-            <div id="quizResult" class="quiz-result" style="display:none;">
-                </div>
-        </div>
-    </div>
-
-    <div id="calculatorModal" class="modal">
-        <div class="calculator">
-            <button class="close-calculator" onclick="closeCalculator()">X</button>
-            <input type="text" id="display" readonly>
-            <div class="buttons">
-                <button class="function" onclick="clearDisplay()">C</button>
-                <button class="function" onclick="appendToDisplay('(')">(</button>
-                <button class="function" onclick="appendToDisplay(')')">)</button>
-                <button class="operator" onclick="appendToDisplay('/')">/</button>
-                <button class="function" onclick="toggleSign()">+/-</button>
-
-                <button class="number" onclick="appendToDisplay('7')">7</button>
-                <button class="number" onclick="appendToDisplay('8')">8</button>
-                <button class="number" onclick="appendToDisplay('9')">9</button>
-                <button class="operator" onclick="appendToDisplay('*')">*</button>
-                <button class="function" onclick="calculateSquareRoot()">&radic;</button>
-
-                <button class="number" onclick="appendToDisplay('4')">4</button>
-                <button class="number" onclick="appendToDisplay('5')">5</button>
-                <button class="number" onclick="appendToDisplay('6')">6</button>
-                <button class="operator" onclick="appendToDisplay('-')">-</button>
-                <button class="function" onclick="calculatePercentage()">%</button>
-
-                <button class="number" onclick="appendToDisplay('1')">1</button>
-                <button class="number" onclick="appendToDisplay('2')">2</button>
-                <button class="number" onclick="appendToDisplay('3')">3</button>
-                <button class="operator" onclick="appendToDisplay('+')">+</button>
-                <button class="function" onclick="calculatePower(2)">x&sup2;</button>
-
-                <button class="number" onclick="appendToDisplay('0')">0</button>
-                <button class="number" onclick="appendToDisplay('.')">.</button>
-                <button class="equals" onclick="calculateResult()">=</button>
-                <button class="function" onclick="calculatePower(3)">x&sup3;</button>
-            </div>
-        </div>
-    </div>
-
-    <div id="supportModal" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2 class="modal-title">Contact & Support</h2>
-                <button class="close-btn" onclick="closeSupportModal()"><i class="fas fa-times"></i></button>
-            </div>
-            <div>
-                <h3>Need Help?</h3>
-                <p>We're here to assist you with any questions or issues regarding AKTUBuddy.</p>
-
-                <h3>Frequently Asked Questions (FAQs)</h3>
-                <ul>
-                    <li><strong>How do I select my branch and semester?</strong><br>
-                        On the homepage, use the "Branch" and "Semester" dropdowns to filter content.</li>
-                    <li><strong>Where can I find study notes?</strong><br>
-                        Notes are available in the "Study Resources" section on the homepage.</li>
-                    <li><strong>How do I attempt mock tests?</strong><br>
-                        Navigate to the "Mock Tests" page from the header menu.</li>
-                    <li><strong>My progress isn't updating. What should I do?</strong><br>
-                        Ensure you are logged in (if a login feature is implemented) and have completed quizzes. If issues persist, please contact us.</li>
-                </ul>
-
-                <h3>Contact Information</h3>
-                <p>If your question isn't answered in the FAQs, please reach out to us:</p>
-                <ul>
-                    <li>Email: <a href="mailto:support@aktubuddy.com">support@aktubuddy.com</a></li>
-                    <li>Phone: +91 12345 67890 (Mon-Fri, 9 AM - 5 PM IST)</li>
-                    <li>Social Media: Reach out to us on our social channels listed in the footer.</li>
-                </ul>
-
-                <h3>Feedback</h3>
-                <p>We value your feedback! If you have suggestions for new features or improvements, please let us know.</p>
-                <p style="margin-top: 15px;">Thank you for using AKTUBuddy!</p>
-            </div>
-        </div>
-    </div>
-
-    <script src="js/script.js"></script> </body>
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/navigation.js"></script>
+    <script src="assets/js/search.js"></script>
+    <script src="assets/js/theme-manager.js"></script>
+</body>
 </html>
