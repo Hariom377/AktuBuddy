@@ -1,0 +1,236 @@
+{
+  "branch": "CSE",
+  "branchName": "Computer Science & Engineering",
+  "totalSubjects": 42,
+  "semesters": {
+    "1": [
+      {
+        "id": "cse-math1",
+        "name": "Engineering Mathematics-I",
+        "code": "KAS-101",
+        "credits": 4,
+        "type": "Theory",
+        "semester": 1,
+        "mcqCount": 120,
+        "notesCount": 45,
+        "mockTests": 8,
+        "difficulty": "Medium",
+        "icon": "fas fa-calculator",
+        "description": "Differential and integral calculus, differential equations",
+        "topics": [
+          "Differential Calculus",
+          "Integral Calculus", 
+          "Differential Equations",
+          "Vector Calculus",
+          "Multiple Integrals"
+        ],
+        "seoKeywords": [
+          "engineering mathematics cse",
+          "calculus aktu",
+          "differential equations",
+          "vector calculus",
+          "multiple integrals"
+        ],
+        "metaDescription": "Master Engineering Mathematics-I for CSE with 120+ MCQs, comprehensive notes, and 8 mock tests. Perfect for AKTU semester 1 preparation.",
+        "lastUpdated": "2025-01-01",
+        "popularity": 95
+      },
+      {
+        "id": "cse-physics",
+        "name": "Engineering Physics",
+        "code": "KAS-102", 
+        "credits": 4,
+        "type": "Theory",
+        "semester": 1,
+        "mcqCount": 100,
+        "notesCount": 38,
+        "mockTests": 6,
+        "difficulty": "Medium",
+        "icon": "fas fa-atom",
+        "description": "Mechanics, thermodynamics, wave motion, and modern physics",
+        "topics": [
+          "Mechanics",
+          "Thermodynamics",
+          "Wave Motion",
+          "Optics",
+          "Modern Physics"
+        ],
+        "seoKeywords": [
+          "engineering physics cse",
+          "mechanics aktu", 
+          "thermodynamics",
+          "wave motion",
+          "modern physics"
+        ],
+        "metaDescription": "Complete Engineering Physics preparation for CSE students with 100+ MCQs, detailed notes, and mock tests for AKTU exams.",
+        "lastUpdated": "2025-01-01",
+        "popularity": 88
+      },
+      {
+        "id": "cse-chemistry",
+        "name": "Engineering Chemistry",
+        "code": "KAS-103",
+        "credits": 4,
+        "type": "Theory", 
+        "semester": 1,
+        "mcqCount": 95,
+        "notesCount": 42,
+        "mockTests": 7,
+        "difficulty": "Easy",
+        "icon": "fas fa-flask",
+        "description": "Atomic structure, chemical bonding, thermodynamics, and electrochemistry",
+        "topics": [
+          "Atomic Structure",
+          "Chemical Bonding",
+          "Thermodynamics",
+          "Electrochemistry",
+          "Corrosion"
+        ],
+        "seoKeywords": [
+          "engineering chemistry cse",
+          "atomic structure aktu",
+          "chemical bonding",
+          "electrochemistry",
+          "thermodynamics chemistry"
+        ],
+        "metaDescription": "Ace Engineering Chemistry for CSE with 95+ practice MCQs, comprehensive study notes, and 7 mock tests for AKTU preparation.",
+        "lastUpdated": "2025-01-01",
+        "popularity": 82
+      },
+      {
+        "id": "cse-english",
+        "name": "English for Communication",
+        "code": "KAS-104",
+        "credits": 4,
+        "type": "Theory",
+        "semester": 1,
+        "mcqCount": 80,
+        "notesCount": 35,
+        "mockTests": 5,
+        "difficulty": "Easy",
+        "icon": "fas fa-language",
+        "description": "Grammar, vocabulary, communication skills, and technical writing",
+        "topics": [
+          "Grammar Fundamentals",
+          "Vocabulary Building",
+          "Communication Skills",
+          "Technical Writing", 
+          "Presentation Skills"
+        ],
+        "seoKeywords": [
+          "english communication cse",
+          "grammar aktu",
+          "technical writing",
+          "communication skills",
+          "vocabulary building"
+        ],
+        "metaDescription": "Improve English communication skills for CSE students with grammar practice, vocabulary building, and technical writing exercises.",
+        "lastUpdated": "2025-01-01",
+        "popularity": 75
+      },
+      {
+        "id": "cse-programming",
+        "name": "Programming for Problem Solving",
+        "code": "KCS-101",
+        "credits": 4,
+        "type": "Theory + Practical",
+        "semester": 1,
+        "mcqCount": 150,
+        "notesCount": 55,
+        "mockTests": 10,
+        "difficulty": "Hard",
+        "icon": "fas fa-code",
+        "description": "C programming fundamentals, algorithms, and problem-solving techniques",
+        "topics": [
+          "C Programming Basics",
+          "Control Structures",
+          "Functions",
+          "Arrays and Pointers",
+          "File Handling",
+          "Data Structures Basics"
+        ],
+        "seoKeywords": [
+          "c programming cse",
+          "programming problem solving aktu",
+          "algorithms",
+          "data structures",
+          "c language tutorial"
+        ],
+        "metaDescription": "Master C Programming and Problem Solving with 150+ MCQs, detailed tutorials, and 10 comprehensive mock tests for CSE students.",
+        "lastUpdated": "2025-01-01",
+        "popularity": 98
+      }
+    ],
+    "2": [
+      {
+        "id": "cse-math2",
+        "name": "Engineering Mathematics-II",
+        "code": "KAS-201",
+        "credits": 4,
+        "type": "Theory",
+        "semester": 2,
+        "mcqCount": 115,
+        "notesCount": 48,
+        "mockTests": 8,
+        "difficulty": "Medium",
+        "icon": "fas fa-square-root-alt",
+        "description": "Linear algebra, complex analysis, and Fourier transforms",
+        "topics": [
+          "Linear Algebra",
+          "Complex Analysis",
+          "Fourier Series",
+          "Laplace Transforms",
+          "Partial Differential Equations"
+        ],
+        "seoKeywords": [
+          "engineering mathematics 2 cse",
+          "linear algebra aktu",
+          "complex analysis",
+          "fourier transforms",
+          "laplace transforms"
+        ],
+        "metaDescription": "Advanced Engineering Mathematics-II for CSE with linear algebra, complex analysis, and transform techniques. 115+ practice questions included.",
+        "lastUpdated": "2025-01-01",
+        "popularity": 91
+      },
+      {
+        "id": "cse-electronics",
+        "name": "Basic Electronics Engineering",
+        "code": "KAS-202",
+        "credits": 4,
+        "type": "Theory + Practical",
+        "semester": 2,
+        "mcqCount": 110,
+        "notesCount": 44,
+        "mockTests": 7,
+        "difficulty": "Medium",
+        "icon": "fas fa-microchip",
+        "description": "Electronic devices, circuits, digital electronics, and communication systems",
+        "topics": [
+          "Semiconductor Devices",
+          "Amplifiers",
+          "Digital Electronics",
+          "Communication Systems",
+          "Electronic Circuits"
+        ],
+        "seoKeywords": [
+          "basic electronics cse",
+          "semiconductor devices aktu",
+          "digital electronics",
+          "amplifiers",
+          "electronic circuits"
+        ],
+        "metaDescription": "Comprehensive Basic Electronics for CSE students covering semiconductor devices, amplifiers, and digital circuits with practical examples.",
+        "lastUpdated": "2025-01-01",
+        "popularity": 85
+      }
+    ]
+  },
+  "branchStats": {
+    "totalMCQs": 770,
+    "totalNotes": 307,
+    "totalMockTests": 51,
+    "averageDifficulty": "Medium",
+    "popularSubjects": ["Programming for Problem Solving", "Engineering Mathematics-I", "Engineering Physics"]
+  }
+}
