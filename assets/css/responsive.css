@@ -1,0 +1,636 @@
+/* ====================================
+   AKTUBUDDY - RESPONSIVE CSS
+   Mobile-first responsive design
+   ==================================== */
+
+/* Mobile First Approach - Base styles are for mobile */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+  
+  .cards-grid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+  
+  .hero-buttons {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 var(--space-3);
+  }
+  
+  /* Navigation */
+  .nav-content {
+    flex-wrap: wrap;
+  }
+  
+  .nav-links {
+    display: none;
+  }
+  
+  .search-container {
+    flex: 0 0 200px;
+    order: 3;
+    width: 100%;
+    margin-top: var(--space-3);
+  }
+  
+  .mobile-menu-btn {
+    display: block;
+  }
+  
+  .mobile-menu {
+    animation: slideIn 0.3s ease-out;
+  }
+  
+  /* Logo adjustments */
+  .logo-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 1.25rem;
+  }
+  
+  .logo-text h1 {
+    font-size: 1.25rem;
+  }
+  
+  .logo-text p {
+    font-size: 0.75rem;
+  }
+  
+  /* Hero section */
+  .hero {
+    padding: var(--space-12) 0 var(--space-16);
+    min-height: auto;
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  .hero-title {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+  
+  .hero-description {
+    font-size: 1rem;
+    margin-bottom: var(--space-6);
+  }
+  
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-3);
+  }
+  
+  .hero-buttons .btn {
+    width: 100%;
+    max-width: 280px;
+  }
+  
+  /* Stats grid */
+  .hero-stats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4);
+    margin-top: var(--space-8);
+  }
+  
+  .stat-item:nth-child(odd):last-child {
+    grid-column: 1 / -1;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  
+  /* Cards */
+  .cards-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+  
+  .card {
+    padding: var(--space-4);
+  }
+  
+  .card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-2);
+  }
+  
+  .card-title {
+    font-size: var(--font-size-lg);
+  }
+  
+  .stats-row {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-2);
+  }
+  
+  /* Sections */
+  .section {
+    margin-bottom: var(--space-12);
+  }
+  
+  .section-title {
+    font-size: 1.75rem;
+    margin-bottom: var(--space-6);
+  }
+  
+  .section-description {
+    font-size: 0.875rem;
+  }
+  
+  /* Features grid */
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+  
+  .feature-card {
+    text-align: center;
+    padding: var(--space-6);
+  }
+  
+  /* Quick access */
+  .selector-controls {
+    flex-direction: column;
+    gap: var(--space-4);
+  }
+  
+  .form-group {
+    width: 100%;
+  }
+  
+  /* Footer */
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+    text-align: center;
+  }
+  
+  .footer-section {
+    text-align: center;
+  }
+  
+  .social-links {
+    justify-content: center;
+  }
+  
+  .footer-bottom {
+    flex-direction: column;
+    gap: var(--space-4);
+    text-align: center;
+  }
+  
+  /* Modal adjustments */
+  .modal {
+    padding: var(--space-4);
+    align-items: flex-start;
+    padding-top: var(--space-8);
+  }
+  
+  .modal-content {
+    width: 100%;
+    max-width: none;
+    max-height: calc(100vh - var(--space-16));
+    margin: 0;
+    border-radius: var(--radius-xl);
+  }
+  
+  .modal-header {
+    padding: var(--space-4) var(--space-4) 0;
+  }
+  
+  .modal-title {
+    font-size: var(--font-size-lg);
+  }
+  
+  .close-btn {
+    width: 36px;
+    height: 36px;
+    font-size: 1.25rem;
+  }
+  
+  /* Quiz styles */
+  .quiz-options {
+    gap: var(--space-2);
+  }
+  
+  .quiz-option {
+    padding: var(--space-3);
+    font-size: 0.875rem;
+  }
+  
+  .question-text {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  /* Progress bars */
+  .progress-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+  
+  /* Branch selector */
+  .branch-selector {
+    padding: var(--space-4);
+  }
+  
+  .selector-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-3);
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+  
+  .cards-grid {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+  
+  .hero-stats {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .features-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .search-container {
+    flex: 0 0 350px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+  
+  .cards-grid {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+  
+  .hero {
+    padding: var(--space-20) 0;
+  }
+  
+  .hero-title {
+    font-size: 3.5rem;
+  }
+  
+  .hero-description {
+    font-size: 1.25rem;
+  }
+}
+
+/* Extra extra large devices (1400px and up) */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+  
+  .search-container {
+    flex: 0 0 400px;
+  }
+}
+
+/* Ultra-wide screens (1920px and up) */
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1600px;
+  }
+  
+  .cards-grid {
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  }
+}
+
+/* Mobile-specific styles */
+@media (max-width: 480px) {
+  :root {
+    --space-1: 0.125rem;
+    --space-2: 0.25rem;
+    --space-3: 0.5rem;
+    --space-4: 0.75rem;
+    --space-6: 1rem;
+    --space-8: 1.5rem;
+  }
+  
+  .container {
+    padding: 0 var(--space-4);
+  }
+  
+  /* Header */
+  .navbar {
+    padding: var(--space-2) 0;
+  }
+  
+  .nav-content {
+    gap: var(--space-2);
+  }
+  
+  .logo-icon {
+    width: 36px;
+    height: 36px;
+    font-size: 1.125rem;
+  }
+  
+  .logo-text h1 {
+    font-size: 1.125rem;
+  }
+  
+  .logo-text p {
+    display: none;
+  }
+  
+  .theme-toggle {
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
+  }
+  
+  /* Hero */
+  .hero {
+    padding: var(--space-8) 0 var(--space-12);
+  }
+  
+  .hero-title {
+    font-size: 1.75rem;
+  }
+  
+  .hero-description {
+    font-size: 0.875rem;
+  }
+  
+  .hero-stats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-3);
+  }
+  
+  .stat-item {
+    padding: var(--space-3);
+  }
+  
+  /* Cards */
+  .card {
+    padding: var(--space-3);
+  }
+  
+  .card-icon {
+    font-size: 1.5rem;
+  }
+  
+  .card-title {
+    font-size: 1rem;
+  }
+  
+  .stats-row {
+    grid-template-columns: 1fr;
+    gap: var(--space-2);
+  }
+  
+  .stat-box {
+    padding: var(--space-2);
+  }
+  
+  /* Buttons */
+  .btn {
+    padding: var(--space-3) var(--space-4);
+    font-size: 0.875rem;
+    min-height: 40px;
+  }
+  
+  .btn-large {
+    padding: var(--space-3) var(--space-6);
+    font-size: 0.875rem;
+    min-height: 44px;
+  }
+  
+  .btn-small {
+    padding: var(--space-2) var(--space-3);
+    font-size: 0.75rem;
+    min-height: 32px;
+  }
+  
+  /* Typography */
+  .section-title {
+    font-size: 1.5rem;
+  }
+  
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.75rem; }
+  h3 { font-size: 1.5rem; }
+  h4 { font-size: 1.25rem; }
+  
+  /* Modal */
+  .modal {
+    padding: var(--space-2);
+  }
+  
+  .modal-content {
+    border-radius: var(--radius-lg);
+    padding: var(--space-4);
+  }
+  
+  /* Footer */
+  .footer {
+    padding: var(--space-8) 0 var(--space-6);
+  }
+  
+  .footer-content {
+    gap: var(--space-6);
+  }
+}
+
+/* Landscape phone styles */
+@media (max-width: 768px) and (orientation: landscape) {
+  .hero {
+    padding: var(--space-8) 0;
+  }
+  
+  .hero-stats {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .modal {
+    align-items: center;
+    padding: var(--space-4);
+  }
+  
+  .modal-content {
+    max-height: 90vh;
+  }
+}
+
+/* Print styles */
+@media print {
+  * {
+    background: transparent !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  
+  body {
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+  
+  .header,
+  .footer,
+  .mobile-menu,
+  .nav-actions,
+  .btn,
+  .modal {
+    display: none !important;
+  }
+  
+  .container {
+    max-width: none;
+    padding: 0;
+  }
+  
+  .card {
+    break-inside: avoid;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  h1, h2, h3 {
+    break-after: avoid;
+  }
+  
+  .hero-title {
+    font-size: 24pt;
+  }
+  
+  .section-title {
+    font-size: 18pt;
+  }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+  :root {
+    --primary-blue: #0000ff;
+    --text-dark: #000000;
+    --text-light: #333333;
+    --border-light: #000000;
+    --bg-white: #ffffff;
+  }
+  
+  .btn-outline {
+    border-width: 3px;
+  }
+  
+  .card {
+    border-width: 2px;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  
+  .animate-fadeIn,
+  .animate-slideIn,
+  .animate-bounce,
+  .animate-pulse,
+  .animate-spin {
+    animation: none;
+  }
+}
+
+/* Dark mode adjustments for mobile */
+:root.dark {
+  @media (max-width: 768px) {
+    .mobile-menu {
+      background: var(--bg-white);
+      border-top-color: var(--border-light);
+    }
+    
+    .search-input {
+      background: rgba(0, 0, 0, 0.2);
+      border-color: rgba(255, 255, 255, 0.3);
+    }
+    
+    .search-input:focus {
+      background: rgba(0, 0, 0, 0.3);
+    }
+  }
+}
+
+/* Touch device optimizations */
+@media (hover: none) and (pointer: coarse) {
+  .btn {
+    min-height: 44px;
+    padding: var(--space-3) var(--space-4);
+  }
+  
+  .nav-link {
+    min-height: 44px;
+    padding: var(--space-3) var(--space-4);
+  }
+  
+  .quiz-option {
+    min-height: 48px;
+    padding: var(--space-4);
+  }
+  
+  .theme-toggle {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Remove hover effects on touch devices */
+  .card:hover {
+    transform: none;
+    box-shadow: var(--shadow-sm);
+  }
+  
+  .btn:hover {
+    transform: none;
+  }
+  
+  .hover-scale:hover,
+  .hover-lift:hover {
+    transform: none;
+  }
+}
+
+/* Screen readers */
+@media (prefers-reduced-motion: reduce) {
+  .sr-only:not(:focus):not(:active) {
+    clip: auto;
+    clip-path: none;
+    height: auto;
+    margin: auto;
+    overflow: visible;
+    position: static;
+    white-space: normal;
+    width: auto;
+  }
+}
