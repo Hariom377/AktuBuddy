@@ -1,0 +1,79 @@
+{
+  "globalSEO": {
+    "siteName": "AKTUBuddy - AKTU Exam Preparation Platform",
+    "defaultTitle": "AKTUBuddy | AKTU Exam Preparation with MCQs, Notes & Mock Tests",
+    "defaultDescription": "Prepare for AKTU exams with 1000+ MCQs, comprehensive notes, and mock tests for CSE, IT, ECE, ME, EE, CE branches. Free study materials for all engineering students.",
+    "defaultKeywords": "AKTU exam preparation, engineering MCQs, AKTU notes, mock tests, CSE preparation, IT preparation, ECE preparation, ME preparation, EE preparation, CE preparation",
+    "canonicalURL": "https://yourusername.github.io/aktubuddy-multipage/",
+    "ogImage": "https://yourusername.github.io/aktubuddy-multipage/assets/images/og-image.png",
+    "twitterCard": "summary_large_image",
+    "twitterSite": "@aktubuddy",
+    "author": "AKTUBuddy Team",
+    "language": "en-US",
+    "robots": "index, follow"
+  },
+  "pageTemplates": {
+    "homepage": {
+      "titleTemplate": "AKTUBuddy - Complete AKTU Exam Preparation Platform",
+      "descriptionTemplate": "Master AKTU exams with interactive MCQs, comprehensive notes, and mock tests. Join thousands of engineering students preparing for success.",
+      "keywords": ["AKTU exam preparation", "engineering students", "MCQ practice", "study notes", "mock tests", "online learning"]
+    },
+    "subjectPage": {
+      "titleTemplate": "{subjectName} - {branchName} | AKTUBuddy",
+      "descriptionTemplate": "Complete {subjectName} preparation for {branchName} students with {mcqCount}+ MCQs, detailed notes, and {mockTests} mock tests.",
+      "keywords": ["{subjectName}", "{branchName}", "AKTU preparation", "MCQ practice", "study notes"]
+    },
+    "mcqPage": {
+      "titleTemplate": "{subjectName} MCQs - Practice Questions | AKTUBuddy",
+      "descriptionTemplate": "Practice {subjectName} with {questionCount}+ MCQs. Instant feedback, detailed explanations, and progress tracking for AKTU exam success.",
+      "keywords": ["{subjectName} MCQs", "practice questions", "AKTU exam", "multiple choice", "quiz"]
+    },
+    "branchPage": {
+      "titleTemplate": "{branchName} Subjects - Complete Study Material | AKTUBuddy", 
+      "descriptionTemplate": "Comprehensive study materials for {branchName} including all semester subjects, MCQs, notes, and mock tests for AKTU preparation.",
+      "keywords": ["{branchName}", "engineering subjects", "AKTU syllabus", "semester wise", "study material"]
+    }
+  },
+  "structuredData": {
+    "organization": {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "AKTUBuddy",
+      "description": "AKTU exam preparation platform",
+      "url": "https://yourusername.github.io/aktubuddy-multipage/",
+      "logo": "https://yourusername.github.io/aktubuddy-multipage/assets/images/logo.png",
+      "sameAs": [
+        "https://www.facebook.com/aktubuddy",
+        "https://www.twitter.com/aktubuddy",
+        "https://www.instagram.com/aktubuddy"
+      ]
+    },
+    "website": {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "AKTUBuddy",
+      "url": "https://yourusername.github.io/aktubuddy-multipage/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://yourusername.github.io/aktubuddy-multipage/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  },
+  "sitemap": {
+    "changeFrequency": {
+      "homepage": "daily",
+      "subjectPages": "weekly", 
+      "mcqPages": "weekly",
+      "toolPages": "monthly",
+      "supportPages": "monthly"
+    },
+    "priority": {
+      "homepage": 1.0,
+      "subjectPages": 0.8,
+      "mcqPages": 0.7,
+      "toolPages": 0.5,
+      "supportPages": 0.4
+    }
+  }
+}
