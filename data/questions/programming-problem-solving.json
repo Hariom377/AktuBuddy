@@ -1,0 +1,126 @@
+{
+  "subject": "Programming for Problem Solving",
+  "subjectCode": "KCS-101",
+  "totalQuestions": 150,
+  "lastUpdated": "2025-01-01",
+  "difficulty": "Hard",
+  "units": [
+    {
+      "unitNumber": 1,
+      "unitName": "Introduction to Programming",
+      "totalQuestions": 25,
+      "questions": [
+        {
+          "id": "prog_u1_q1",
+          "question": "Which of the following is a valid identifier in C?",
+          "options": [
+            "_variable",
+            "2variable",
+            "variable-name",
+            "int"
+          ],
+          "correct": 0,
+          "explanation": "In C, identifiers can start with a letter or underscore, followed by letters, digits, or underscores. '_variable' is valid, while '2variable' starts with a digit, 'variable-name' contains a hyphen, and 'int' is a reserved keyword.",
+          "difficulty": "easy",
+          "keywords": ["identifier", "variables", "naming rules", "c programming"],
+          "unit": 1,
+          "topic": "Variables and Identifiers",
+          "weightage": 2,
+          "timeToSolve": 30,
+          "previousYearFrequency": 12
+        },
+        {
+          "id": "prog_u1_q2",
+          "question": "What is the size of int data type in C (on most 32-bit systems)?",
+          "options": [
+            "2 bytes",
+            "4 bytes",
+            "8 bytes",
+            "1 byte"
+          ],
+          "correct": 1,
+          "explanation": "On most modern 32-bit systems, int is 4 bytes (32 bits). However, this can vary depending on the system architecture and compiler.",
+          "difficulty": "easy",
+          "keywords": ["data types", "int", "memory", "bytes"],
+          "unit": 1,
+          "topic": "Data Types",
+          "weightage": 2,
+          "timeToSolve": 25,
+          "previousYearFrequency": 18
+        },
+        {
+          "id": "prog_u1_q3",
+          "question": "What will be the output of the following code?\n``````",
+          "options": [
+            "5",
+            "6",
+            "Error",
+            "Undefined"
+          ],
+          "correct": 1,
+          "explanation": "++x is pre-increment operator. It first increments x to 6, then returns the new value. So the output is 6.",
+          "difficulty": "medium",
+          "keywords": ["pre-increment", "operators", "printf", "output"],
+          "unit": 1,
+          "topic": "Operators",
+          "weightage": 3,
+          "timeToSolve": 40,
+          "previousYearFrequency": 14
+        }
+      ]
+    },
+    {
+      "unitNumber": 2,
+      "unitName": "Control Structures",
+      "totalQuestions": 30,
+      "questions": [
+        {
+          "id": "prog_u2_q1",
+          "question": "Which loop is guaranteed to execute at least once?",
+          "options": [
+            "for loop",
+            "while loop",
+            "do-while loop",
+            "nested loop"
+          ],
+          "correct": 2,
+          "explanation": "The do-while loop checks the condition after executing the loop body, so it's guaranteed to execute at least once, even if the condition is initially false.",
+          "difficulty": "easy",
+          "keywords": ["do-while", "loops", "control structures", "iteration"],
+          "unit": 2,
+          "topic": "Loops",
+          "weightage": 3,
+          "timeToSolve": 35,
+          "previousYearFrequency": 16
+        },
+        {
+          "id": "prog_u2_q2",
+          "question": "What is the output of this code?\n``````",
+          "options": [
+            "0 1 2",
+            "0 2",
+            "1 2",
+            "0 1"
+          ],
+          "correct": 1,
+          "explanation": "The loop runs for i=0,1,2. When i=1, continue skips the printf statement. So only 0 and 2 are printed.",
+          "difficulty": "medium",
+          "keywords": ["for loop", "continue", "control flow", "output"],
+          "unit": 2,
+          "topic": "Loop Control",
+          "weightage": 4,
+          "timeToSolve": 50,
+          "previousYearFrequency": 11
+        }
+      ]
+    }
+  ],
+  "questionStats": {
+    "easyQuestions": 45,
+    "mediumQuestions": 75,
+    "hardQuestions": 30,
+    "averageTimeToSolve": 55,
+    "totalWeightage": 100,
+    "mostFrequentTopics": ["Variables and Data Types", "Control Structures", "Functions", "Arrays"]
+  }
+}
