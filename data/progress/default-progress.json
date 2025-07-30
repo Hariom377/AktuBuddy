@@ -1,0 +1,115 @@
+{
+  "userId": "default",
+  "profileData": {
+    "name": "",
+    "branch": "",
+    "semester": 1,
+    "joinDate": "2025-01-01",
+    "lastActive": "2025-01-01",
+    "studyStreak": 0,
+    "totalStudyTime": 0
+  },
+  "subjectProgress": [
+    {
+      "subjectId": "cse-math1",
+      "subjectName": "Engineering Mathematics-I",
+      "subjectCode": "KAS-101",
+      "branch": "CSE",
+      "semester": 1,
+      "totalQuestions": 120,
+      "attemptedQuestions": 0,
+      "correctAnswers": 0,
+      "accuracy": 0,
+      "lastAttempted": null,
+      "timeSpent": 0,
+      "unitProgress": [
+        {
+          "unitNumber": 1,
+          "unitName": "Differential Calculus",
+          "totalQuestions": 30,
+          "attemptedQuestions": 0,
+          "correctAnswers": 0,
+          "accuracy": 0
+        },
+        {
+          "unitNumber": 2,
+          "unitName": "Integral Calculus", 
+          "totalQuestions": 25,
+          "attemptedQuestions": 0,
+          "correctAnswers": 0,
+          "accuracy": 0
+        }
+      ],
+      "topicProgress": [
+        {
+          "topicName": "Basic Derivatives",
+          "attempted": 0,
+          "correct": 0,
+          "accuracy": 0
+        },
+        {
+          "topicName": "Chain Rule",
+          "attempted": 0,
+          "correct": 0,
+          "accuracy": 0
+        }
+      ]
+    }
+  ],
+  "mockTestResults": [
+    {
+      "testId": "mock-cse-sem1-1",
+      "testName": "CSE Semester 1 - Mock Test 1",
+      "attempts": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": "first_question",
+      "name": "First Step",
+      "description": "Answered your first question",
+      "icon": "fas fa-baby",
+      "earned": false,
+      "earnedDate": null
+    },
+    {
+      "id": "streak_7",
+      "name": "Week Warrior",
+      "description": "7-day study streak",
+      "icon": "fas fa-fire",
+      "earned": false,
+      "earnedDate": null
+    },
+    {
+      "id": "perfect_score",
+      "name": "Perfectionist",
+      "description": "Scored 100% in any mock test",
+      "icon": "fas fa-star",
+      "earned": false,
+      "earnedDate": null
+    }
+  ],
+  "statistics": {
+    "totalQuestionsAttempted": 0,
+    "totalCorrectAnswers": 0,
+    "overallAccuracy": 0,
+    "totalStudyTime": 0,
+    "mockTestsCompleted": 0,
+    "averageMockTestScore": 0,
+    "strongTopics": [],
+    "weakTopics": [],
+    "studyStreakRecord": 0,
+    "lastStudySession": null
+  },
+  "preferences": {
+    "defaultBranch": "CSE",
+    "defaultSemester": 1,
+    "questionsPerSession": 10,
+    "showExplanations": true,
+    "randomizeQuestions": true,
+    "enableTimer": false,
+    "darkMode": false,
+    "soundEffects": true,
+    "emailNotifications": false
+  }
+}
