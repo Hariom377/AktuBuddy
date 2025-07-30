@@ -1,0 +1,53 @@
+# Robots.txt for AKTUBuddy
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://yourusername.github.io/aktubuddy-multipage/sitemap.xml
+
+# Optimize crawling
+Crawl-delay: 1
+
+# Block unnecessary files
+Disallow: /assets/js/
+Disallow: /data/config/
+Disallow: *.json$
+
+# Allow important assets
+Allow: /assets/css/
+Allow: /assets/images/
+
+# Block private or temporary files
+Disallow: /temp/
+Disallow: /private/
+Disallow: *.tmp$
+Disallow: *.backup$
+
+# Popular search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2
+
+# Block unwanted bots
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+# Cache optimization
+# Request crawlers to cache static resources longer
+# Cache-Control: max-age=31536000
