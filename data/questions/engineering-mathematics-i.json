@@ -1,0 +1,164 @@
+{
+  "subject": "Engineering Mathematics-I",
+  "subjectCode": "KAS-101",
+  "totalQuestions": 120,
+  "lastUpdated": "2025-01-01",
+  "difficulty": "Medium",
+  "units": [
+    {
+      "unitNumber": 1,
+      "unitName": "Differential Calculus",
+      "totalQuestions": 30,
+      "questions": [
+        {
+          "id": "math1_u1_q1",
+          "question": "What is the derivative of sin(x) with respect to x?",
+          "options": [
+            "cos(x)",
+            "-cos(x)", 
+            "sin(x)",
+            "-sin(x)"
+          ],
+          "correct": 0,
+          "explanation": "The derivative of sin(x) is cos(x). This is a fundamental derivative rule in calculus.",
+          "difficulty": "easy",
+          "keywords": ["derivative", "trigonometric functions", "sin", "cos"],
+          "unit": 1,
+          "topic": "Basic Derivatives",
+          "weightage": 2,
+          "timeToSolve": 30,
+          "previousYearFrequency": 8
+        },
+        {
+          "id": "math1_u1_q2", 
+          "question": "Find the derivative of f(x) = x³ + 2x² - 5x + 7",
+          "options": [
+            "3x² + 4x - 5",
+            "3x² + 2x - 5",
+            "x² + 4x - 5",
+            "3x² + 4x + 5"
+          ],
+          "correct": 0,
+          "explanation": "Using the power rule: d/dx(x³) = 3x², d/dx(2x²) = 4x, d/dx(-5x) = -5, d/dx(7) = 0. Therefore, f'(x) = 3x² + 4x - 5.",
+          "difficulty": "medium",
+          "keywords": ["derivative", "polynomial", "power rule"],
+          "unit": 1,
+          "topic": "Polynomial Derivatives",
+          "weightage": 3,
+          "timeToSolve": 45,
+          "previousYearFrequency": 12
+        },
+        {
+          "id": "math1_u1_q3",
+          "question": "What is the second derivative of f(x) = e^(2x)?",
+          "options": [
+            "2e^(2x)",
+            "4e^(2x)",
+            "e^(2x)",
+            "2xe^(2x)"
+          ],
+          "correct": 1,
+          "explanation": "First derivative: f'(x) = 2e^(2x). Second derivative: f''(x) = 4e^(2x) using the chain rule twice.",
+          "difficulty": "medium",
+          "keywords": ["second derivative", "exponential function", "chain rule"],
+          "unit": 1,
+          "topic": "Higher Order Derivatives",
+          "weightage": 4,
+          "timeToSolve": 60,
+          "previousYearFrequency": 6
+        },
+        {
+          "id": "math1_u1_q4",
+          "question": "Find dy/dx if y = ln(x² + 1)",
+          "options": [
+            "2x/(x² + 1)",
+            "1/(x² + 1)",
+            "2x",
+            "2x·ln(x² + 1)"
+          ],
+          "correct": 0,
+          "explanation": "Using chain rule: dy/dx = 1/(x² + 1) · d/dx(x² + 1) = 1/(x² + 1) · 2x = 2x/(x² + 1).",
+          "difficulty": "medium",
+          "keywords": ["chain rule", "logarithmic differentiation", "natural log"],
+          "unit": 1,
+          "topic": "Logarithmic Functions",
+          "weightage": 3,
+          "timeToSolve": 50,
+          "previousYearFrequency": 9
+        },
+        {
+          "id": "math1_u1_q5",
+          "question": "What is the derivative of f(x) = x·sin(x)?",
+          "options": [
+            "sin(x) + x·cos(x)",
+            "cos(x) + x·sin(x)",
+            "x·cos(x)",
+            "sin(x)·cos(x)"
+          ],
+          "correct": 0,
+          "explanation": "Using product rule: d/dx(uv) = u'v + uv'. Here u = x, v = sin(x), so f'(x) = 1·sin(x) + x·cos(x) = sin(x) + x·cos(x).",
+          "difficulty": "medium",
+          "keywords": ["product rule", "trigonometric functions", "derivative"],
+          "unit": 1,
+          "topic": "Product Rule",
+          "weightage": 4,
+          "timeToSolve": 55,
+          "previousYearFrequency": 11
+        }
+      ]
+    },
+    {
+      "unitNumber": 2,
+      "unitName": "Integral Calculus",
+      "totalQuestions": 25,
+      "questions": [
+        {
+          "id": "math1_u2_q1",
+          "question": "What is ∫x² dx?",
+          "options": [
+            "x³/3 + C",
+            "2x + C",
+            "x³ + C",
+            "3x² + C"
+          ],
+          "correct": 0,
+          "explanation": "Using the power rule for integration: ∫x^n dx = x^(n+1)/(n+1) + C. For x², we get x³/3 + C.",
+          "difficulty": "easy",
+          "keywords": ["integration", "power rule", "indefinite integral"],
+          "unit": 2,
+          "topic": "Basic Integration",
+          "weightage": 2,
+          "timeToSolve": 30,
+          "previousYearFrequency": 10
+        },
+        {
+          "id": "math1_u2_q2",
+          "question": "Evaluate ∫₀¹ x dx",
+          "options": [
+            "1/2",
+            "1",
+            "0",
+            "2"
+          ],
+          "correct": 0,
+          "explanation": "∫₀¹ x dx = [x²/2]₀¹ = (1²/2) - (0²/2) = 1/2 - 0 = 1/2.",
+          "difficulty": "easy",
+          "keywords": ["definite integral", "fundamental theorem", "evaluation"],
+          "unit": 2,
+          "topic": "Definite Integrals",
+          "weightage": 3,
+          "timeToSolve": 40,
+          "previousYearFrequency": 15
+        }
+      ]
+    }
+  ],
+  "questionStats": {
+    "easyQuestions": 40,
+    "mediumQuestions": 65,
+    "hardQuestions": 15,
+    "averageTimeToSolve": 45,
+    "totalWeightage": 100,
+    "mostFrequentTopics": ["Basic Derivatives", "Integration", "Differential Equations"]
+  }
+}
