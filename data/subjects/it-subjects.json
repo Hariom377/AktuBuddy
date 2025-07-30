@@ -1,0 +1,111 @@
+{
+  "branch": "IT",
+  "branchName": "Information Technology",
+  "totalSubjects": 40,
+  "semesters": {
+    "1": [
+      {
+        "id": "it-math1",
+        "name": "Engineering Mathematics-I",
+        "code": "KAS-101",
+        "credits": 4,
+        "type": "Theory",
+        "semester": 1,
+        "mcqCount": 120,
+        "notesCount": 45,
+        "mockTests": 8,
+        "difficulty": "Medium",
+        "icon": "fas fa-calculator",
+        "description": "Differential and integral calculus, differential equations for IT applications",
+        "topics": [
+          "Differential Calculus",
+          "Integral Calculus",
+          "Differential Equations",
+          "Vector Calculus",
+          "Numerical Methods"
+        ],
+        "seoKeywords": [
+          "engineering mathematics it",
+          "calculus for it students",
+          "differential equations it",
+          "numerical methods",
+          "vector calculus it"
+        ],
+        "metaDescription": "Engineering Mathematics-I for IT students with focus on calculus and differential equations. 120+ MCQs and comprehensive study materials.",
+        "lastUpdated": "2025-01-01",
+        "popularity": 94
+      },
+      {
+        "id": "it-programming",
+        "name": "Programming for Problem Solving",
+        "code": "KCS-101",
+        "credits": 4,
+        "type": "Theory + Practical",
+        "semester": 1,
+        "mcqCount": 145,
+        "notesCount": 52,
+        "mockTests": 9,
+        "difficulty": "Hard",
+        "icon": "fas fa-laptop-code",
+        "description": "C programming with emphasis on IT problem solving and data handling",
+        "topics": [
+          "C Programming Fundamentals",
+          "Data Types and Variables",
+          "Control Structures",
+          "Functions and Recursion",
+          "Arrays and Strings",
+          "File Operations"
+        ],
+        "seoKeywords": [
+          "c programming it",
+          "programming problem solving it",
+          "data handling c",
+          "file operations c",
+          "recursion programming"
+        ],
+        "metaDescription": "Master C Programming for IT applications with 145+ practice questions, hands-on examples, and comprehensive problem-solving techniques.",
+        "lastUpdated": "2025-01-01",
+        "popularity": 97
+      },
+      {
+        "id": "it-digital-systems",
+        "name": "Digital Systems",
+        "code": "KIT-101",
+        "credits": 4,
+        "type": "Theory",
+        "semester": 1,
+        "mcqCount": 105,
+        "notesCount": 40,
+        "mockTests": 7,
+        "difficulty": "Medium",
+        "icon": "fas fa-binary",
+        "description": "Number systems, Boolean algebra, combinational and sequential circuits",
+        "topics": [
+          "Number Systems",
+          "Boolean Algebra",
+          "Logic Gates",
+          "Combinational Circuits",
+          "Sequential Circuits",
+          "Memory Systems"
+        ],
+        "seoKeywords": [
+          "digital systems it",
+          "boolean algebra aktu",
+          "logic gates",
+          "combinational circuits",
+          "sequential circuits"
+        ],
+        "metaDescription": "Digital Systems for IT students covering number systems, Boolean algebra, and circuit design with 105+ practice MCQs.",
+        "lastUpdated": "2025-01-01",
+        "popularity": 89
+      }
+    ]
+  },
+  "branchStats": {
+    "totalMCQs": 370,
+    "totalNotes": 137,
+    "totalMockTests": 24,
+    "averageDifficulty": "Medium",
+    "popularSubjects": ["Programming for Problem Solving", "Engineering Mathematics-I", "Digital Systems"]
+  }
+}
