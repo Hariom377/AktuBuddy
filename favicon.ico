@@ -1,0 +1,52 @@
+// Instructions for creating favicon.ico
+/*
+1. Create a 32x32 pixel icon with these specifications:
+   - Background: #2563eb (blue)
+   - Icon: White graduation cap (FontAwesome fa-graduation-cap)
+   - Format: ICO file
+   - File size: < 1KB
+
+2. Online tools to create favicon:
+   - https://favicon.io/favicon-generator/
+   - https://realfavicongenerator.net/
+   - https://www.favicon-generator.org/
+
+3. Use this text: "AB" or graduation cap symbol
+   - Font: Poppins, bold
+   - Background: #2563eb
+   - Text color: #ffffff
+
+4. Generate multiple sizes:
+   - 16x16 (standard)
+   - 32x32 (standard)
+   - 48x48 (Windows)
+   - 64x64 (Windows)
+
+5. Save as favicon.ico in the root directory
+*/
+
+// Alternative: Base64 encoded simple favicon (paste in browser console to download)
+const createFavicon = () => {
+    const canvas = document.createElement('canvas');
+    canvas.width = 32;
+    canvas.height = 32;
+    const ctx = canvas.getContext('2d');
+    
+    // Background
+    ctx.fillStyle = '#2563eb';
+    ctx.fillRect(0, 0, 32, 32);
+    
+    // Text
+    ctx.fillStyle = '#ffffff';
+    ctx.font = 'bold 20px Poppins, Arial';
+    ctx.textAlign = 'center';
+    ctx.fillText('AB', 16, 22);
+    
+    // Download
+    const link = document.createElement('a');
+    link.download = 'favicon.ico';
+    link.href = canvas.toDataURL();
+    link.click();
+};
+
+// Run: createFavicon(); in browser console to generate
