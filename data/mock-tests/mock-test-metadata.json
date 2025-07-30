@@ -1,0 +1,78 @@
+{
+  "mockTests": [
+    {
+      "id": "mock-cse-sem1-1",
+      "title": "CSE Semester 1 - Mock Test 1",
+      "description": "Comprehensive mock test covering all CSE semester 1 subjects",
+      "subjects": ["Engineering Mathematics-I", "Engineering Physics", "Programming for Problem Solving"],
+      "branch": "CSE",
+      "semester": 1,
+      "totalQuestions": 50,
+      "duration": 3600,
+      "maxAttempts": 3,
+      "passingScore": 60,
+      "difficulty": "Medium",
+      "questionDistribution": {
+        "Engineering Mathematics-I": 20,
+        "Engineering Physics": 15,
+        "Programming for Problem Solving": 15
+      },
+      "instructions": [
+        "This test contains 50 multiple choice questions",
+        "Each question carries 2 marks",
+        "No negative marking",
+        "Time limit: 60 minutes",
+        "Questions are randomly selected from question bank"
+      ],
+      "tags": ["semester-1", "comprehensive", "cse"],
+      "createdDate": "2025-01-01",
+      "lastUpdated": "2025-01-01",
+      "popularity": 95,
+      "averageScore": 72,
+      "attemptCount": 1250
+    },
+    {
+      "id": "mock-it-programming-1",
+      "title": "Programming Fundamentals - Mock Test",
+      "description": "Focus test on C programming basics and problem solving",
+      "subjects": ["Programming for Problem Solving"],
+      "branch": "IT",
+      "semester": 1,
+      "totalQuestions": 30,
+      "duration": 2400,
+      "maxAttempts": 5,
+      "passingScore": 70,
+      "difficulty": "Hard",
+      "questionDistribution": {
+        "Programming for Problem Solving": 30
+      },
+      "instructions": [
+        "This test focuses on C programming concepts",
+        "30 questions, each worth 2 marks", 
+        "No negative marking",
+        "Time limit: 40 minutes",
+        "Code snippets will be provided for analysis"
+      ],
+      "tags": ["programming", "c-language", "problem-solving"],
+      "createdDate": "2025-01-01",
+      "lastUpdated": "2025-01-01",
+      "popularity": 88,
+      "averageScore": 65,
+      "attemptCount": 890
+    }
+  ],
+  "testStats": {
+    "totalMockTests": 45,
+    "totalAttempts": 15780,
+    "averageCompletionRate": 78,
+    "mostPopularTests": ["CSE Semester 1 Mock Test", "Programming Fundamentals", "Mathematics Comprehensive"],
+    "branchWiseDistribution": {
+      "CSE": 12,
+      "IT": 10,
+      "ECE": 8,
+      "ME": 7,
+      "EE": 5,
+      "CE": 3
+    }
+  }
+}
