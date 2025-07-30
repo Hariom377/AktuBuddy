@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Homepage -->
+    <url>
+        <loc>https://yourusername.github.io/aktubuddy-multipage/</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    
+    <!-- Subject Pages -->
+    <url>
+        <loc>https://yourusername.github.io/aktubuddy-multipage/pages/subjects/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    
+    <!-- Branch-wise Subject Pages -->
+    <url>
+        <loc>https://yourusername.github.io/aktubuddy-multipage/pages/subjects/cse-subjects.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://yourusername.github.io/aktubuddy-multipage/pages/subjects/it-subjects.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://yourusername.github.io/aktubuddy-multipage/pages/subjects/ece-subjects.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://yourusername.github.io/aktubuddy-multipage/pages/subjects/me-subjects.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://yourusername.github.io/aktubuddy-multipage/pages/subjects/ee-subjects.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://yourusername.github.io/aktubuddy-multipage/pages/subjects/ce-subjects.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    
+    <!-- MCQ Pages -->
+    <url>
+        <loc>https://yourusername.github.io/aktubuddy-multipage/pages/mcq/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://yourusername.github.io/aktubuddy-multipage/pages/mcq/engineering-mathematics-i.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://yourusername.github.io/aktubuddy-multipage/pages/mcq/engineering-chemistry.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://yourusername.github.io/aktubuddy-multipage/pages/mcq/basic-electronics.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://yourusername.github.io/aktubuddy-multipage/pages/mcq/programming-problem-solving.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://yourusername.github.io/aktubuddy-multipage/pages/mcq/engineering-physics.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    
+    <!-- Tools Pages -->
+    <url>
+        <loc>https://yourusername.github.io/aktubuddy-multipage/pages/tools/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://yourusername.github.io/aktubuddy-multipage/pages/tools/calculator.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://yourusername.github.io/aktubuddy-multipage/pages/tools/progress-tracker.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    
+    <!-- Support Pages -->
+    <url>
+        <loc>https://yourusername.github.io/aktubuddy-multipage/pages/support/help.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.4</priority>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://yourusername.github.io/aktubuddy-multipage/pages/support/about.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.4</priority>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://yourusername.github.io/aktubuddy-multipage/pages/support/contact.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.4</priority>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://yourusername.github.io/aktubuddy-multipage/pages/support/privacy.html</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://yourusername.github.io/aktubuddy-multipage/pages/support/terms.html</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+</urlset>
