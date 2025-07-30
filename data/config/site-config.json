@@ -1,0 +1,84 @@
+{
+  "siteName": "AKTUBuddy",
+  "siteDescription": "Comprehensive AKTU exam preparation platform with interactive MCQs, detailed notes, and mock tests for all engineering branches",
+  "version": "1.0.0",
+  "author": "AKTUBuddy Team",
+  "contactEmail": "support@aktubuddy.com",
+  "lastUpdated": "2025-01-01",
+  "features": {
+    "multipleChoice": true,
+    "progressTracking": true,
+    "darkMode": true,
+    "mobileResponsive": true,
+    "offlineSupport": false,
+    "searchFunctionality": true,
+    "userAccounts": false,
+    "socialSharing": true
+  },
+  "supportedBranches": [
+    {
+      "code": "CSE",
+      "name": "Computer Science & Engineering",
+      "enabled": true,
+      "totalSubjects": 42,
+      "color": "#2563eb"
+    },
+    {
+      "code": "IT", 
+      "name": "Information Technology",
+      "enabled": true,
+      "totalSubjects": 40,
+      "color": "#059669"
+    },
+    {
+      "code": "ECE",
+      "name": "Electronics & Communication Engineering",
+      "enabled": true,
+      "totalSubjects": 38,
+      "color": "#dc2626"
+    },
+    {
+      "code": "ME",
+      "name": "Mechanical Engineering", 
+      "enabled": true,
+      "totalSubjects": 36,
+      "color": "#d97706"
+    },
+    {
+      "code": "EE",
+      "name": "Electrical Engineering",
+      "enabled": true,
+      "totalSubjects": 35,
+      "color": "#7c3aed"
+    },
+    {
+      "code": "CE",
+      "name": "Civil Engineering",
+      "enabled": true,
+      "totalSubjects": 34,
+      "color": "#0891b2"
+    }
+  ],
+  "semesters": [1, 2, 3, 4, 5, 6, 7, 8],
+  "difficultyLevels": ["Easy", "Medium", "Hard"],
+  "questionTypes": ["MCQ", "True/False", "Fill in the blanks"],
+  "analytics": {
+    "googleAnalyticsId": "GA_TRACKING_ID",
+    "enableTracking": true,
+    "trackUserProgress": true,
+    "trackSearchQueries": true
+  },
+  "performance": {
+    "lazyLoadImages": true,
+    "cacheQuestions": true,
+    "preloadNextQuestion": true,
+    "compressionEnabled": true
+  },
+  "ui": {
+    "defaultTheme": "light",
+    "allowThemeToggle": true,
+    "animationsEnabled": true,
+    "showBreadcrumbs": true,
+    "itemsPerPage": 20
+  }
+}
